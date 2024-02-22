@@ -1,0 +1,51 @@
+.container {
+  width: 350px;
+  padding-top: 20px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.profileInfo {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileAvatar {
+  background-color: rgb(73, 73, 73);
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.userName {
+  padding-top: 20px;
+}
+.userTag {
+  padding-top: 30px;
+}
+.userLocation {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.statsList {
+  border-top: 1px solid rgb(255, 255, 255);
+  padding-top: 20px;
+  /* background-color: grey; */
+  justify-content: center;
+  display: flex;
+  padding: 0px;
+  margin: 0;
+}
+
+.statsListItem {
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
