@@ -1,6 +1,8 @@
 import "./App.css";
 import user from "./userData.json";
+import friends from "./friends.json";
 import { Profile } from "./components/Profile";
+import { FriendList } from "./components/Friends/FriendsList";
 
 function App() {
   return (
@@ -12,7 +14,8 @@ function App() {
         stats={user.stats}
         avatar={user.avatar}
       />
-      {Profile}
+
+      <FriendList friends={friends} />
     </>
   );
 }
